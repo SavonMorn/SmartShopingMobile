@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listedFragment"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/title_listed" />
+    <item
+        android:id="@+id/unlistedFragment"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="@string/title_unlisted" />
+    <item
+        android:id="@+id/addItemFragment"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="@string/title_add" />
+    <item
+        android:id="@+id/storesFragment"
+        android:icon="@drawable/ic_baseline_apartment_24"
+        android:title="@string/title_stores" />
+</menu>

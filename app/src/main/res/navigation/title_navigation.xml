@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title_navigation"
+    app:startDestination="@id/ListTitlebar">
+
+    <fragment
+        android:id="@+id/ListTitlebar"
+        android:name="com.smartshoping.ssmoble.ListTitlebar"
+        android:label="ListTitlebar"
+        tools:layout="@layout/list_titlebar" />
+    <fragment
+        android:id="@+id/storesTitlebar"
+        android:name="com.smartshoping.ssmoble.StoreTitlebar"
+        android:label="fragment_stores_titlebar"
+        tools:layout="@layout/fragment_stores_titlebar" />
+
+</navigation>

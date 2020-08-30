@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/listedFragment">
+    <fragment
+        android:id="@+id/listedFragment"
+        android:name="com.smartshoping.ssmoble.listedFragment"
+        android:label="fragment_listed_list"
+        tools:layout="@layout/fragment_listed_list" />
+    <fragment
+        android:id="@+id/unlistedFragment"
+        android:name="com.smartshoping.ssmoble.unlistedFragment"
+        android:label="fragment_unlisted_list"
+        tools:layout="@layout/fragment_unlisted_list" />
+    <fragment
+        android:id="@+id/addItemFragment"
+        android:name="com.smartshoping.ssmoble.addItemFragment"
+        android:label="fragment_add_item"
+        tools:layout="@layout/fragment_add_item" />
+    <fragment
+        android:id="@+id/storesFragment"
+        android:name="com.smartshoping.ssmoble.storesFragment"
+        android:label="fragment_stores_list"
+        tools:layout="@layout/fragment_stores_list" />
+</navigation>
