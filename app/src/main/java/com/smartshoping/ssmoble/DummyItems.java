@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class DummyItems {
     static ArrayList<DummyObject> x = new ArrayList<DummyObject>();
     static{
-       x.add(new DummyObject("pie", "cambels", "walmart"));
-        x.add(new DummyObject("milk", "dairy", "walmart"));
-        x.add(new DummyObject("meat", "farms", "heb"));
-        x.add(new DummyObject("eggs", "farms", "walmart"));
-        x.add(new DummyObject("chicken", "farms", "cosco"));
+       x.add(new DummyObject("Condensed Chicken Noodle Soup", "Campbell's", "Walmart"));
+        x.add(new DummyObject("2% Reduced-Fat Milk", "Great Value", "Walmart"));
+        x.add(new DummyObject("Thick Cut Bacon", "Hormel", "H.E.B"));
+        x.add(new DummyObject("Large White Eggs, 18", "Great Value", "Walmart"));
+        x.add(new DummyObject("Boneless Skinless Chicken Breasts", "Member's Mark", "Sam's Club"));
     }
 
     static public class DummyObject{
